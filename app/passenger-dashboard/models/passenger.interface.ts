@@ -2,6 +2,6 @@
 	id: number,
 	fullname: string,
 	checkedIn: boolean,
-	checkInDate: number | null,
+	checkInDate?: number,
 	baggae: string
   }
