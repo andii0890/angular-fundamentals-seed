@@ -20,7 +20,7 @@ const routes: Routes = [
 	{
 		path: 'passengers',
 		children: [
-			{ path: '', component: PassengerDashboardComponent }
+			{ path: '', component: PassengerDashboardComponent },
 			{ path: ':id', component: PassengerViewerComponent }
 		]
 	}
